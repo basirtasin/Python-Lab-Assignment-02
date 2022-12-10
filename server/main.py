@@ -47,7 +47,7 @@ while (True):
                 shutil.copy('files.zip', f'{destination_path}')
 
             zip_file_name = folderfiles.split('\\')[-1]
-            print(zip_file_name)
+            #print(zip_file_name)
             os.system("cd ..\\destination & tar -xf files.zip")
             # os.system('tar -xf ' + "files.zip")
 
